@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #content{
+        
+            height: 700px;
+            width: 100%;
+            /* border: 1px solid red; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .form-content{
+            height: 300px;
+            width: 30%;
+            border: 1px solid green;
+            background-color:gainsboro ;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+            gap:10px
+            
+        }
+        h1{
+            text-align: center;
+        }
+        .user-name{
+            height: 50px;
+            width: 400%;
+            /* border: 1px solid green; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        input{
+            height: 20px;
+            border-radius: 10px;
+        }
+        .password{
+            height: 50px;
+            width: 400%;
+            /* border: 1px solid green; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .submit{
+            height: 50px;
+            width: 400%;
+            /* border: 1px solid green; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn-submit{
+            height: 30px;
+            width: 10%;
+            cursor:pointer;
+            background-color: blue;
+            color:white ;
+            border:none ;
+        }
+        .btn-submit:hover{
+            background-color: brown;
+        }
+
+    </style>
+</head>
+<body>
+
+    <section id="content">
+        <form class="form-content">
+            <h1> login </h1>
+            <div class="user-name">
+                <label for="">user name:</label>
+                <input type="user name" />
+            </div>
+            <div class="password">
+                <label for="">password:</label>
+                <input type="password" />
+            </div>
+            <div class="submit">
+                <input type="submit" class="btn-submit" />
+            </div>
+        </form>
+    </section>
+
+    
+</body>
+</html>

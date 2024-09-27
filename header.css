@@ -1,0 +1,122 @@
+*{
+    font-family: Basis-regular;
+}
+#header{
+    height:70px;
+    width:100%;
+    border:1px solid red;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(0,0,0);
+}
+.header-content{
+    height:60px;
+    width:90%;
+    border:1px solid green;
+    display:flex;
+    align-items: center;
+
+}
+.logo-content{
+    height:55px;
+    width: 15%;
+    border:1px solid blue;
+    background-color: black;
+    
+}
+.nav-content{
+    height:55px;
+    width:50%;
+    border:1px solid rgb(239, 239, 20);
+    display: flex;
+    gap: 15px;
+}
+.search-icons{
+    height:55px;
+    width:30%;
+    border:1px solid rgb(129, 15, 34);
+    display: flex;
+}
+.we-do{
+    height:55px;
+    width:100px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    
+}
+.we-are{
+    height:55px;
+    width:100px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.insights{
+        height:55px;
+        width:100px;
+        display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+.carrers{
+        height:55px;
+        width:100px;
+        display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+.newsroom{
+        height:55px;
+        width:100px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+}
+.investors{
+        height:55px;
+        width:100px;
+        display: flex;
+    align-items: center;
+    gap: 4px;
+}
+a{
+    text-decoration: none;
+    color: rgb(252,252,252);
+}
+span{
+    color: rgb(252,252,252);
+}
+.contactus{
+    height:55px;
+    width:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.tcs-worldwide{
+    height:55px;
+    width:180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.search{
+    height:55px;
+    width:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tata-logo{
+    height:55px;
+    width:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
